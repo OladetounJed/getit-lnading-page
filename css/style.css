@@ -316,13 +316,14 @@ Media Queries
   .navbar {
     position: relative; }
     .navbar__right {
+      font-size: 12px;
       display: none;
       flex-direction: column;
       justify-content: center;
-      position: absolute;
+      position: fixed;
       right: 0;
-      height: 35em;
-      width: 20em;
+      height: 100%;
+      width: 100%;
       z-index: 59;
       padding: 0;
       background-color: #149f98;
@@ -405,7 +406,7 @@ Media Queries
     flex-direction: column;
     height: 100%;
     text-align: center;
-    font-size: 15px; }
+    font-size: 12px; }
     .footer__con {
       margin-top: 2em; }
       .footer__con:last-child {
