@@ -496,13 +496,13 @@ Media Queries
 
 @media (max-width: 990px) {
   body {
-    font-size: 10px;
+    font-size: 14px;
   }
 
   .navbar {
     position: relative;
     &__right {
-      font-size: 12px;
+      font-size: 16px;
       display: none;
       flex-direction: column;
       justify-content: center;
@@ -523,6 +523,12 @@ Media Queries
       button {
         margin-left: 0;
       }
+    }
+
+    &__close {
+      width: 2em;
+      position: fixed;
+      right: 1.5em;
     }
 
     &__list {
@@ -654,7 +660,7 @@ Media Queries
     }
 
     &__google-img {
-      width: 5em;
+      width: 8em;
     }
 
     &__heading-big {
@@ -667,7 +673,7 @@ Media Queries
     flex-direction: column;
     height: 100%;
     text-align: center;
-    font-size: 12px;
+    
 
     &__con {
       margin-top: 2em;

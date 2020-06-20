@@ -312,11 +312,11 @@ Media Queries
 */
 @media (max-width: 990px) {
   body {
-    font-size: 10px; }
+    font-size: 14px; }
   .navbar {
     position: relative; }
     .navbar__right {
-      font-size: 12px;
+      font-size: 16px;
       display: none;
       flex-direction: column;
       justify-content: center;
@@ -333,6 +333,10 @@ Media Queries
         margin: 4em auto; }
       .navbar__right button {
         margin-left: 0; }
+    .navbar__close {
+      width: 2em;
+      position: fixed;
+      right: 1.5em; }
     .navbar__list {
       margin-top: 3em;
       text-align: center;
@@ -398,15 +402,14 @@ Media Queries
     .sign-up__con--2 {
       width: 100%; }
     .sign-up__google-img {
-      width: 5em; }
+      width: 8em; }
     .sign-up__heading-big {
       width: 100%;
       text-align: center; }
   .footer {
     flex-direction: column;
     height: 100%;
-    text-align: center;
-    font-size: 12px; }
+    text-align: center; }
     .footer__con {
       margin-top: 2em; }
       .footer__con:last-child {
